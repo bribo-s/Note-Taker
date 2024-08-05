@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Note Taker",
+    "version": "1.0",
+    "description": "A simple note-taking Chrome extension.",
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon126.png",
+        "48": "icon126.png",
+        "128": "icon126.png"
+      }
+    },
+    "icons": {
+      "16": "icon126.png",
+      "48": "icon126.png",
+      "128": "icon126.png"
+    }
+  }
+  
